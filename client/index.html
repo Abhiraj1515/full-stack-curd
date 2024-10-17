@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD APP</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <!--INPUTS SECTION STARTED-->
+      <div class="inputs">
+        <div class="title">FULL STACK CRUD APP</div>
+        <div class="input-container">
+          <input type="text" id="name-input" placeholder="Add Name" />
+          <button id="add-name-btn">Add Name</button>
+        </div>
+
+        <div class="input-container">
+          <input type="text" id="search-input" placeholder="Search Here..." />
+          <button id="search-btn">Search</button>
+        </div>
+      </div>
+
+
+      <!--INPUTS SECTION END-->
+      <!--TABLE SECTION STARTED-->
+      <div class="data-table">
+        <table id="table">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Data Added</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </thead>
+           
+            <tbody></tbody>
+        </table>
+        
+      </div>
+      <!--TABLE SECTION END-->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
